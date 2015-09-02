@@ -3,7 +3,7 @@
 (function(){
     'use strict';
 
-    var samplegraph = {
+    var sampleGraph = {
             "A":["B"],
             "B":["C"],
             "C":["D"],
@@ -37,7 +37,7 @@
         return false;
     }
     
-    console.log((doesRouteExist(samplegraph, "A", "E"))?"super possible":"less possible");
+    console.log((doesRouteExist(sampleGraph, "A", "E"))?"super possible":"less possible");
     
     
 })();
