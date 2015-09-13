@@ -109,6 +109,6 @@
     
     var children = createChildren(sampleTree);
     
-    console.log(children.getChildren())
+    console.log(children.isBalanced())
 
 })();
