@@ -3,14 +3,18 @@
 (function(){
 
     'use strict';
+    
+    var createTree = function(){
+        var sampleArray = [];
 
-    var sampleArray = [];
-    
-    for (var i= 0; i<100; i++) sampleArray.push(Math.random()*100);
-    
-    sampleArray.sort(function(a, b) {
-        return a-b;
-    });
+        for (var i= 0; i<10; i++) sampleArray.push(Math.random()*100);
+
+        sampleArray.sort(function(a, b) {
+            return a-b;
+        });
+        
+        return createNodes(sampleArray);
+    }
         
     var createNodes = function (a){
         var len = a.length;
@@ -26,6 +30,5 @@
         return sol;
     }
     
-    console.log(createNodes(sampleArray));
-    
+    module.exports = createTree;
 })();

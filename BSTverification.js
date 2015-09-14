@@ -109,6 +109,6 @@
     
     var children = createChildren(sampleTree);
     
-    console.log(children.isBalanced())
+    module.exports = createChildren;
 
 })();
