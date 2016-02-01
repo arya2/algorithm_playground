@@ -39,5 +39,4 @@
     
     console.log((doesRouteExist(sampleGraph, "A", "E"))?"super possible":"less possible");
     
-    
 })();

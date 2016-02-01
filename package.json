@@ -1,0 +1,19 @@
+{
+  "name": "algorithms_playground",
+  "version": "1.0.0",
+  "description": "Literally a place for me to play with algorithms",
+  "main": "BSTgenerator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arya2/algorithm_playground.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arya2/algorithm_playground/issues"
+  },
+  "homepage": "https://github.com/arya2/algorithm_playground"
+}
